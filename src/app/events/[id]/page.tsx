@@ -110,7 +110,7 @@ const getEvent = async (id: string): Promise<Event | undefined> => {
   return events.find((event) => event.id === id)
 }
 
-export const EventPage = ({ params }: EventPageProps) => {
+const EventPage = ({ params }: EventPageProps) => {
   const [event, setEvent] = useState<Event | null>(null)
   const [loading, setLoading] = useState(true)
 
