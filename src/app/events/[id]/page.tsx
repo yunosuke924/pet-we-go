@@ -110,7 +110,7 @@ const getEvent = async (id: string): Promise<Event | undefined> => {
   return events.find((event) => event.id === id)
 }
 
-export const Page = ({ params }: EventPageProps) => {
+export const EventPage = ({ params }: EventPageProps) => {
   const [event, setEvent] = useState<Event | null>(null)
   const [loading, setLoading] = useState(true)
 
@@ -158,4 +158,4 @@ export const Page = ({ params }: EventPageProps) => {
   )
 }
 
-export default Page
+export default EventPage
