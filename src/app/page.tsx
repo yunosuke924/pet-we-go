@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <p>QR Code with logo</p>
       <QRCode
-        value='https://github.com/gcoro/react-qrcode-logo'
+        value='https://pet-we-go.vercel.app/'
         logoImage={'/title.png'}
         logoHeight={30}
         logoWidth={50}
