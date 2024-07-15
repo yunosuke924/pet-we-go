@@ -17,6 +17,8 @@ export default function Home() {
         bgColor='#f9f9f9'
         fgColor='#E17835'
       />
+      <p>ver 1.0.0 </p>
+      <p>・バージョンを追記</p>
     </>
   )
 }
